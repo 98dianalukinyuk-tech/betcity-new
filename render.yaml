@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: betcity-new
+    runtime: static
+    staticPublishPath: .
