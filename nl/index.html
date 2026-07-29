@@ -825,14 +825,17 @@
           }
 
           .wheel-big-text {
-            font-size: clamp(15px, 4vw, 32px) !important;
+            font-size: clamp(15px, 3.5vw, 28px) !important;
             transform: none !important;
           }
 
           .wheel-small-text,
           .wheel-empty-text {
-            font-size: clamp(12px, 3vw, 24px) !important;
-            transform: none !important;
+            font-size: clamp(10px, 2.5vw, 18px) !important;
+            letter-spacing: -0.04em !important;
+            white-space: nowrap !important;
+            transform: scaleX(0.88) !important;
+            transform-origin: center center !important;
           }
 
           .wheel-seg {
